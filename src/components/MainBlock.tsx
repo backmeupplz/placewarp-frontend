@@ -1,3 +1,4 @@
+import Grid from 'components/Grid'
 import Navbar from 'components/Navbar'
 import classnames, { display, flexDirection, space } from 'classnames/tailwind'
 
@@ -10,6 +11,7 @@ export default function () {
   return (
     <div className={container}>
       <Navbar />
+      <Grid />
     </div>
   )
 }
